@@ -16,6 +16,6 @@ def list_dwarves(array)
   array.each_with_index do |element|
     name = element
     count += 1
-    puts "1. #{element}"
+    puts "#{count}. #{element}"
   end
 end
